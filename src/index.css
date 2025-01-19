@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+
+}
+body{
+  background: linear-gradient(135deg, #080808, #434343, #000000, #2c2c2c, #1a1a1a);
+  background-size: 500% 500%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p{
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+input.input-field{
+opacity: 0;
+z-index: -999;
+position: absolute;
+
+}
+
+span.active{
+  border-bottom:3px solid blue;
+}
+
+span.wrong{
+  color : darkred;
+  background-color: pink;
+}
+span.correct{
+  background-color: rgba(9, 196, 9, 0.726);
+}
+
+@media (max-width: 768px) {
+  body {
+      display: none;
+  }
+}
+img{
+  margin-top:-750px;
+}
