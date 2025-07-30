@@ -45,7 +45,7 @@
 > _Jaw-dropping animations with minimal distraction UI._
 
 <p align="center">
-  <img src="https://github.com/your-username/ClickFury/assets/preview.gif" width="600"/>
+  <img src="https://github.com/Dev-axay18/clickfury/blob/main/assets/Screenshot%202025-07-30%20192930.png?raw=true" width="1000"/>
 </p>
 
 ---
